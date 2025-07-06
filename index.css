@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    background: #2A7B9B;
+    background: radial-gradient(circle, rgba(42, 123, 155, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(237, 221, 83, 1) 100%);
+}
+
+header {
+    display: flex;
+    margin: 10px;
+    column-gap: 13px;
+    font-size: x-large;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+
+}
