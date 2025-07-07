@@ -1,8 +1,24 @@
+@keyframes heade1r {
+    0% {
+        font-size: 0;
+        background-color: black;
+    }
+
+    100%{
+        font-size: large;
+        background-color: antiquewhite;
+    }
+
+}
+
+
+
 * {
     padding: 0;
     margin: 0;
-    background: #a228b0;
-    background: linear-gradient(314deg, rgba(162, 40, 176, 0.94) 0%, rgba(255, 255, 255, 1) 0%, rgba(191, 185, 196, 1) 100%);
+    /* background: #a228b0; */
+    /* background: linear-gradient(314deg, rgba(162, 40, 176, 0.94) 0%, rgba(255, 255, 255, 1) 0%, rgba(191, 185, 196, 1) 100%);
+    ; */
 }
 
 header {
@@ -13,4 +29,12 @@ header {
     padding-left: 20px;
     padding-top: 10px;
     color: rgb(0, 0, 0);
+}
+
+.hed:before{
+    animation: heade1r 3s ease-in-out 1s 5 forwards forwards;
+}
+
+ul{
+    list-style-position: inside;
 }
